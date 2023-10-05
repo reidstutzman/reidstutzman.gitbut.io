@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <style> 
-    .header {
-      display: none;
+  <style>
+    
+    .header {  
+      display: none; 
     }
-  </style>
+    
+    img {
+      max-width: 100%;
+      height: auto; 
+    }
+    
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) 
+    and (-webkit-min-device-pixel-ratio: 3) {
+    
+      img {
+        width: 100%;
+      }
+      
+    }
+
+  </style>  
 </head>
+
 <body>
 
-  <img src="nebraska-n.jpg" width="500">
+  <img src="nebraska-n.jpg" alt="Nebraska N">
 
 </body>
+
 </html>
